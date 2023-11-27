@@ -11,7 +11,7 @@ import Contacts from './pages/Contacts'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <main className="bg-slate-300/20">
+    <main className="bg-slate-300/20 min-h-screen">
     <BrowserRouter>
       <Navbar/>
       <Routes>
